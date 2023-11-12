@@ -1,0 +1,181 @@
+html {
+    font-family: Arial, sans-serif;
+    background-color: #c8c8c8;
+}
+
+/* the main container that contains all page elements */
+#container {
+    width: 95%;
+    margin: 0px auto;
+    padding: 5px;
+}
+
+/* the header at the top page */
+header {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+header .orgName {
+    display: inline-block;
+    width: 49%;
+}
+
+header .cDate {
+    float: right;
+}
+
+/* the top links under the user bar  */
+#topLinks {
+    /*background-color:#ffffff;*/
+    text-align: center;
+    margin: 0px auto;
+    padding: 5px;
+}
+
+#topLinks ul {
+    list-style-type: none;
+    margin: 2px;
+    padding: 0;
+}
+
+#topLinks ul li {
+    display: inline;
+    margin: 2px 5px;
+    font-weight: bold;
+    position: relative;
+}
+
+/* #topLinks ul *::after {
+    content: '/';
+    pointer-events: none;
+    right: -14px;
+    font-weight: bold;
+    position: absolute;
+} */
+
+.mainlinks ul li {
+    display: block !important;
+    width: fit-content !important;
+    margin: auto auto 15px auto !important;
+}
+
+/* .mainlinks ul *::after {
+    content: '' !important;
+} */
+
+#topLinks ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#topLinks a::after {
+    content: '';
+    position: absolute;
+    background-color: blue;
+    height: .2em;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    transform: scaleX(0);
+    transform-origin: middle;
+    transition: 0.3s;
+}
+
+#topLinks a:hover::after {
+    transform: scaleX(100%);
+}
+
+#topLinks ul li a:visited {color: black;}
+
+#topLinks ul li a:hover {color: blue;}
+
+/* the footer at the bottom of the page  */
+footer {
+    background-color: white;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* the following is for the main content of the page */
+.content {
+    border: 3px solid blue;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+/* the following is for any form inside content of the page */
+.content form {
+    background-color: white;
+    width: 60%;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.content h1 {
+    background-color: white;
+    margin: 2px auto;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.content h2 {
+    background-color: #dddddd;
+    text-align: left;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.content h3 {
+	margin: 5px auto;
+	display: inline;
+}
+
+/* the buttons in forms   */
+.buttons {
+    text-align: center;
+}
+
+/* the tables   */
+.content table {
+    border-collapse: collapse;
+    background-color: white;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+.content table,
+.content td,
+.content th {
+    border: solid 2px;
+    padding: 5px;
+}
+
+.content caption {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+abbr {text-decoration: none;}
+
+hr {
+    border: solid 1px;
+}
+
+#userBar div {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: fit-content;
+    margin-left: auto;
+    font-weight: bold;
+}

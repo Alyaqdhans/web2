@@ -37,7 +37,7 @@
     </section>  <!-- end of user bar section -->
     <section id='topLinks'>
         <ul>
-            <li><a href='../'>Home</a></li>
+            <!--  <li><a href='../'>Home</a></li> -->
         </ul>
     </section> <!-- end of topLinks section -->
 <section class=content>
